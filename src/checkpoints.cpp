@@ -24,9 +24,9 @@ typedef std::map<int, uint256> MapCheckpoints;
 static MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
     (0, hashGenesisBlock)
-    //(xxxxx , uint256("0x"))
-    //(xxxxx , uint256("0x"))
-    //(xxxxx , uint256("0x"))
+    (106 , uint256("0x000000016666fb66199f51366ebbfc060738da05995b6f1b79969672dcd1c8e6"))
+    (1142 , uint256("0xc55fd310a062e9561810812c953725c3a21e1d0d9bd87fac383de086e59fd717"))
+    (5499 , uint256("0x52845a1d0eb93a89c77329aececf07f1c869cbd3f0df411f83c7b5308a421ce6"))
     ;
 
 // TestNet has no checkpoints
